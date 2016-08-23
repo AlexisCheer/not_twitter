@@ -34,7 +34,7 @@ class TweetsController < ApplicationController
       if @tweet.save
         format.html { redirect_to @tweet, notie: 'Tweet was successfully created.' }
       else
-        formart.html { render :new }
+        format.html { render :new }
       end
     end
   end
