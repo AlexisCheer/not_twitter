@@ -12,6 +12,8 @@ Rails.application.routes.draw do
   get 'tweets/new'
 
   get 'tweets/_form'
+  
+  resources :relationships
 
   resources :tweets
   
