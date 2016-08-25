@@ -18,7 +18,7 @@ Rails.application.routes.draw do
   resources :relationships
 
   resources :tweets do
-    resources :likes
+    resource :likes
   end
   
   devise_for :users
